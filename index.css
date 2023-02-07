@@ -1,0 +1,108 @@
+body{
+    background-image: url("ombre.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center; 
+    background-attachment: fixed;
+    margin:0;
+}
+/* div{
+    margin:auto;
+} */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background-color: lightpink;
+    border-style: dotted;
+    border-color: lightsalmon;
+    text-align: center;
+    border-width: thick;
+    border-radius: 15px;
+    padding: 5px;
+}
+h4{
+    font-weight: bold;
+     text-indent: 15px;
+}
+.image{
+   
+   border-color: blue;
+   margin-top: 1em;
+
+
+}
+.contains::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left.side{
+    
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    background-color: aliceblue;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.tex1{
+    margin-top: 1em;
+    background-color: paleturquoise;
+    
+    width: fit-content;
+    padding: 20px;
+    margin-bottom: 1em;
+    text-align: justify;
+    align-items: center;
+
+}
+a:hover{
+    background-color: red;
+}
+span{
+    font-weight: bold;
+    color:red;
+}
+ul li {
+    background: bisque;
+    color: rgb(5, 104, 138);
+    padding: 5px;
+    margin-left: 35px;
+  }
+  ol li {
+    background: plum;
+    color: rgb(5, 104, 138);
+    padding: 5px;
+    margin-left: 35px;
+  }
+/* .middleside{
+    display: fixed;
+    padding: 20px;
+    margin-top: 20px;
+    float: center;
+    width: 33.33%;
+    background-color: antiquewhite; 
+}
+.text2{
+    background-color: palegreen;
+    width: fit-content;
+    margin-bottom: 1em;
+
+} */
+.Quote{
+    text-align: center;
+    padding-top: 10px;
+}
+table, th, td { 
+    border: 0; 
+}
+tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+tr:nth-child(odd){
+    background-color: lightpink;
+}
